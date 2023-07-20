@@ -10,6 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@300;400;700&family=Roboto:wght@500&display=swap"
         rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
     <title>Document</title>
 </head>
 
@@ -343,8 +345,8 @@
             </div>
         </div>
         <div class="gpa-container">
-            <h2>Semester1</h2>
-            <input type="text" name="" id="input-course" placeholder="Course Name">
+            <h2>GPA Calculator</h2>
+            <!-- <input type="text" name="" id="input-course" placeholder="Course Name">
             <select name="" id="select-grade"
             >
                 <option style="display: none;">Grade</option>
@@ -360,7 +362,12 @@
                 <option>D+</option>
                 <option>D-</option>
             </select>
-            <input type="text" name="" id="input-credits" placeholder="Credits">
+            <input type="text" name="" id="input-credits" placeholder="Credits"> -->
+            <div id="semester-container">
+
+            </div>
+            <button onclick="addSemester()">Add Semester</button>
+            <button onclick="calculateGPA()" id="calculate">Calculate GPA</button>
         </div>
     </main>
     <script src="script.js"></script>
